@@ -1,0 +1,9 @@
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  
+    let ourDistance = mpg * fuelLeft
+    if(ourDistance >= distanceToPump){
+     return true;
+    }else{
+     return false
+  }
+  };
