@@ -10,3 +10,7 @@ function maps(x){
       return num * 2;
     });
     }
+
+    // function maps(x){
+    //     return x.map(n => n * 2);
+    //   }
